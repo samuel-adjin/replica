@@ -2,21 +2,23 @@ body{
     background-color:rgb(239, 239, 239);
     margin: 0;
     padding: 0;
+  
 }
 .top{
     border: 2px solid rgb(34, 34, 34);
 }
 
 .header{
-    /* border: 2px solid rgb(34, 34, 34); */
+   
     width: 78%;
-    /* padding: 5px; */
+   
     position: absolute;
     top: 4px;
     left: 13%;
     background-color: rgb(53, 53, 53);
     height: 150px;
     border-bottom: 2px solid rgb(59, 59, 59);
+   
 }
 .header>p{
     color: rgb(255, 255, 255);
@@ -35,10 +37,6 @@ body{
     margin-right: 50px;
     height: 110px; 
 }
-/* .top-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
 
 .para1 {
     font-size: 30px;
@@ -322,6 +320,7 @@ a{
     top: 300px;
     left: 175px;
     background-color: rgb(251, 251, 251);
+   
 }
 .home img{
     width: 560px;
@@ -456,7 +455,7 @@ a{
 .footer{
     margin-top: 60px;
     width:99.8%;
-    height: 400px;
+    height: 440px;
     background-color: rgb(53, 53, 53);
     /* border: 2px solid red; */
     overflow: hidden;
@@ -478,7 +477,6 @@ a{
 }
 .disclaimer{
     width: 220px;
-    word-spacing: 3px;
     margin-top: 10px;
     position: relative;
     left: 550px;
@@ -486,4 +484,19 @@ a{
     color:rgba(128, 128, 128, 1);
     font-family: 'Times New Roman', Times, serif;
 }
+.text-style{
+    line-height: 1.5;
+}
+
+.horizon{
+    border-bottom: 1px solid rgba(128, 128, 128, 1);
+    width: 800px;
+    margin-left: 200px;
+}
+
+
+
+   
+
+
 
